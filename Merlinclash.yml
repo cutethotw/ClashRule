@@ -1,0 +1,14 @@
+port: 3333
+socks-port: 23456
+redir-port: 23457
+allow-lan: true
+mode: Rule
+log-level: error
+external-controller: 192.168.50.1:9990
+experimental:
+  ignore-resolve-fail: true
+external-ui: dashboard
+secret: "clash"
+profile:
+  store-selected: false
+ipv6: false
