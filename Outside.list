@@ -1,4 +1,5 @@
 DOMAIN,gw.sky-ip.net
 DOMAIN-SUFFIX,gw.sky-ip.net
+IP-CIDR,207.148.64.114/32,no-resolve
 DOMAIN,goo.gs
 DOMAIN-SUFFIX,goo.gs
