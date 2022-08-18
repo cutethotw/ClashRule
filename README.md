@@ -2,7 +2,18 @@
 
 ***
 
-## 1. 选择订阅转换服务器
+## 一把梭
+
+打开[肥羊订阅转换前端](https://sub.v1.mk/)，填入必要信息（远程配置——https://raw.githubusercontent.com/cutethotw/ClashRule/main/GeneralClashRule.ini），用就完事了
+[![vDhTA0.png](https://s1.ax1x.com/2022/08/18/vDhTA0.png)](https://imgtu.com/i/vDhTA0)
+
+[![vDhd6H.png](https://s1.ax1x.com/2022/08/18/vDhd6H.png)](https://imgtu.com/i/vDhd6H)
+
+***
+
+## 娓娓道来
+
+### 1. 选择订阅转换服务器
 
 > * 用别人搭建好的（因为前端一般不支持自定义后端故以下仅作前端推荐）
 >
@@ -26,7 +37,7 @@
 
 ***
 
-## 2.订阅转换
+### 2.订阅转换
 
 以肥羊前端（https://sub.v1.mk ）为例，解释一下各个参数
 
@@ -52,7 +63,7 @@
 >   >   >   >
 >   >   >   > * IOS
 >   >   >   >
->   >   >   >   > * Stach
+>   >   >   >   > * Stash
 >   >   >   >   > * Choc
 >   >   >   >
 >   >   >   > * macOS
@@ -85,6 +96,10 @@
 > * 短链选择
 >
 >   > 转换后的订阅地址为后端地址加一系列参数，URL一般较长不甚美观，故可转为短链接
+>   >
+>   > * 自行搭建推荐
+>   >
+>   >   > [YOURLS](https://github.com/YOURLS/YOURLS)
 >
 > * 远程配置
 >
@@ -121,13 +136,16 @@
 >   >   >
 >   >   >   > * 推荐引用为主
 >   >   >   >
+>   >   >   >   > * ".list"可直接引用
+>   >   >   >   > * ".yaml"需在前添加"clash-classic:"
+>   >   >   >
 >   >   >   > * 常用引用仓库
 >   >   >   >
->   >   >   >   > * ACL4SSR
+>   >   >   >   > * ACL4SSR——比较稳定，分流正确率高
 >   >   >   >   >
 >   >   >   >   >   > https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash
 >   >   >   >   >
->   >   >   >   > * blackmatrix7
+>   >   >   >   > * blackmatrix7——更新更频繁，分流更全面
 >   >   >   >   >
 >   >   >   >   >   > https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash
 >   >   >
@@ -169,6 +187,14 @@
 >   >
 >   >   > 节点按照一定规则重命名
 >   >
+>   > * 远程设备
+>   >
+>   >   > 似乎是给QX用的，没用过QX不太清楚
+>   >
+>   > * 更新间隔
+>   >
+>   >   > 顾名思义
+>   >
 >   > * 订阅命名
 >   >
 >   >   >  订阅名称，在Clash for Windows一般会显示，其他客户端大多都为自定义
@@ -181,18 +207,10 @@
 >   >   >
 >   >   > * 启动UDP
 >   >   >
->   >   >   > 推荐开启
+>   >   >   > 推荐开启，代理打游戏、打电话时大概率会用到，当然节点也得支持UDP开了才有用
 >   >   >
 >   >   > * 启动TFO
 >   >   >
 >   >   >   > 推荐开启
 >   >   >
 >   >   > * 待补充
-
-***
-
-## 3.参考示例
-
-[![vdCqPJ.png](https://s1.ax1x.com/2022/08/15/vdCqPJ.png)](https://imgtu.com/i/vdCqPJ)
-
-[![vdEJVP.png](https://s1.ax1x.com/2022/08/15/vdEJVP.png)](https://imgtu.com/i/vdEJVP)
