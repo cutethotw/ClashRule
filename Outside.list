@@ -8,3 +8,7 @@ DOMAIN-SUFFIX,emby.vault647.com
 DOMAIN-SUFFIX,gstatic.com
 #谷歌play
 DOMAIN-SUFFIX,googleapis.cn
+
+#acadmist
+DOMAIN-SUFFIX,goog
+DOMAIN-SUFFIX,googleapis.com
