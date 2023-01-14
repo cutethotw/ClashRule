@@ -12,3 +12,5 @@ IP-CIDR,103.135.250.65/32,no-resolve
 DOMAIN,api.nopecha.com
 #DeepL直连翻译
 DOMAIN,www2.deepl.com
+
+PROCESS-NAME,qbittorrent
