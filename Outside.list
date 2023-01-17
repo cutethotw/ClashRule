@@ -14,3 +14,4 @@ DOMAIN-SUFFIX,goog
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,recaptcha.net
+PROCESS-NAME,obfs4proxy
