@@ -15,7 +15,7 @@ socks-port: 7891
 # redir-port: 7892
 
 # 允许局域网的连接（可用来共享代理）
-allow-lan: true
+allow-lan: false
 
 # 仅在将allow-lan设置为true时适用
 # #"*": 绑定所有IP地址
@@ -73,8 +73,11 @@ dns:
     - tls://1.1.1.1:853
     - tls://1.0.0.1:853
     - https://1.1.1.1/dns-query
-    - tls://dns.google:853
-    - https://dns.google/dns-query
+    - https://1.0.0.1/dns-query
+    - tls://8.8.8.8:853
+    - tls://8.8.4.4:853
+    - https://8.8.8.8/dns-query
+    - https://8.8.4.4/dns-query
 
 #dns:
   #enable: true # 是否启用dns false
