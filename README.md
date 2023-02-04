@@ -5,7 +5,7 @@
 ## 一把梭
 
 打开[肥羊订阅转换前端](https://sub.v1.mk/)，填入必要信息（如图所示），用就完事了
-[![pSyBGUe.png](./订阅转换教程.assets/pSyBGUe.png)](https://imgse.com/i/pSyBGUe)
+<a href="https://imgse.com/i/pSyBGUe"><img src="https://s1.ax1x.com/2023/02/04/pSyBGUe.png" alt="pSyBGUe.png" border="0" /></a>
 <a href="https://imgse.com/i/zULXWt"><img src="https://s1.ax1x.com/2022/11/28/zULXWt.png" alt="zULXWt.png" border="0" /></a>
 
 ***
