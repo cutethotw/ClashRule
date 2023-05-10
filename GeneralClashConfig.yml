@@ -9,7 +9,7 @@ bind-address: "*"
 ipv6: true
 # mode: rule
 # silent / error / warning / info / debug
-log-level: info
+log-level: debug
 # RESTful API
 external-controller: '127.0.0.1:9090'
 # external-ui: folder
