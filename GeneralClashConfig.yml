@@ -1,133 +1,120 @@
-#---------------------------------------------------#
-# 配置文件需要放置在 $HOME/.config/clash/config.yml
-# 或者运行目录下的config.yml
-#---------------------------------------------------#
-# 混合端口 HTTP和SOCKS5用一个端口
+# 全局配置
 mixed-port: 7890
-
-# HTTP 代理端口
 # port: 7890
-
-# SOCKS5 代理端口
-socks-port: 7891
-
-# Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
+# socks-port: 7891
 # redir-port: 7892
-
-# 允许局域网的连接（可用来共享代理）
 allow-lan: false
-
-# 仅在将allow-lan设置为true时适用
-# #"*": 绑定所有IP地址
-# #192.168.122.11: 绑定单个IPv4地址
-# #"[aaaa::a8aa:ff:fe09:57d8]": 绑定单个IPv6地址
+global-client-fingerprint: chrome
 bind-address: "*"
 ipv6: true
-
-# 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
 # mode: rule
-
-# 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
-# 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
-log-level: info
-
-# Clash 的 RESTful API
+# silent / error / warning / info / debug
+log-level: debug
+# RESTful API
 external-controller: '127.0.0.1:9090'
-
-# 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
-# 参数应填写配置目录的相对路径或绝对路径。
-# http://127.0.0.1:9090/ui/#/
 # external-ui: folder
-# yacd面板：  https://github.com/haishanh/yacd
-# Razord面板：http://clash.razord.top/#/proxies
 # external-ui: dashboard
-
-# RESTful API 的口令 (可选)
 # secret: ""
-
-# 实验性功能
+geox-url:
+  geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
 experimental:
-  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
+  # ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
   # interface-name: en0 # outbound interface name
-
 # 本地 SOCKS5 / HTTP(S) 服务认证
 # authentication:
 #  - "user1:pass1"
 #  - "user2:pass2"
+profile:
+  store-selected: false
+  store-fake-ip: true
 
-# 实验性功能 hosts, 支持通配符 (例如 *.clash.dev 甚至 *.foo.*.example.com)
-# 静态的域名 比 通配域名 具有更高的优先级 (foo.example.com 优先于 *.example.com)
-# 注意: hosts 在 fake-ip 模式下不生效
-#hosts:
-#   '*.clash.dev': 127.0.0.1
-#   'alpha.clash.dev': '::1'
+# Tun配置
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - any:53
+  # device: utun0
+  # mtu: 9000
+  strict-route: true
+  # inet4-route-address:
+  # - 0.0.0.0/1
+  # - 128.0.0.0/1
+  # inet6-route-address:
+  # - "::/1"
+  # - "8000::/1"
+  # endpoint-independent_nat: false
+  # include-uid:
+  # - 0
+  # include-uid-range:
+  # - 1000-99999
+  # exclude-uid:
+  #- 1000
+  # exclude-uid-range:
+  # - 1000-99999
+  # include-android-user:
+  # - 0
+  # - 10
+  # include-package:
+  # - com.android.chrome
+  # exclude-package:
+  # - com.android.captiveportallogin
 
+# DNS
 dns:
   enable: true
+  prefer-h3: true
   listen: 127.0.0.1:53
   ipv6: true
   default-nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
+    - 'https://1.12.12.12/dns-query'
+    - 'tls://1.12.12.12:853'
+    - 'https://223.5.5.5/dns-query'
+    - 'tls://223.5.5.5:853'
+  proxy-server-nameserver:
+    - 'https://1.12.12.12/dns-query'
+    - 'tls://1.12.12.12:853'
+    - 'https://223.5.5.5/dns-query'
+    - 'tls://223.5.5.5:853'
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+  use-hosts: true
+  # nameserver-policy:
+  #   'www.baidu.com': '114.114.114.114'
+  #   '+.internal.crop.com': '10.0.0.1'
+  #   'geosite:cn': https://doh.pub/dns-query
   nameserver:
-    - tls://1.1.1.1:853
-    - tls://1.0.0.1:853
-    - https://1.1.1.1/dns-query
-    - https://1.0.0.1/dns-query
-    - tls://8.8.8.8:853
-    - tls://8.8.4.4:853
-    - https://8.8.8.8/dns-query
-    - https://8.8.4.4/dns-query
-
-#dns:
-  #enable: true # 是否启用dns false
-  #ipv6: false
-  #listen: 0.0.0.0:53
-  #enhanced-mode: redir-host # 模式：redir-host或fake-ip
-  #fake-ip-range: 198.18.0.1/16 #
-  #fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
-     #- '*.lan'
-     #- localhost.ptlogin2.qq.com
-  #nameserver:
-     #- 223.5.5.5 # 阿里DNS
-     #- 180.76.76.76 # 百度DNS
-     #- 119.29.29.29 # 腾讯DNS
-     #- 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
-     #- 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
-     #- 114.114.114.114 # 114DNS
-     #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
-     #- https://doh.360.cn/dns-query # 360 DoH DNS
-  #fallback:
-     #- 8.8.8.8 # 谷歌DNS
-     #- 1.1.1.1 # Cloudflare DNS
-     #- tls://dns.rubyfish.cn:853
-     #- tls://1.0.0.1:853
-     #- tls://dns.google:853
-     #- https://dns.rubyfish.cn/dns-query
-     #- https://cloudflare-dns.com/dns-query
-     #- https://dns.google/dns-query
-  #fallback-filter:
-     #geoip: true # 默认
-     #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
-       #- 240.0.0.0/4
-
-# 1. clash DNS 请求逻辑：
-#   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
-#   (2) clash 将选取 nameserver 列表内，解析最快的结果。
-#   (3) 若解析结果中，IP 地址属于 国外，那么 clash 将选择 fallback 列表内，解析最快的结果。
-#
-#   因此，我在 nameserver 和 fallback 内都放置了无污染、解析速度较快的国内 DNS 服务器，以达到最快的解析速度。
-#   但是 fallback 列表内服务器会用在解析境外网站，为了结果绝对无污染，我仅保留了支持 DoT/DoH 的两个服务器。
-#
-# 2. clash DNS 配置注意事项：
-#   (1) 如果您为了确保 DNS 解析结果无污染，请仅保留列表内以 tls:// 或 https:// 开头的 DNS 服务器，但是通常对于国内域名没有必要。
-#   (2) 如果您不在乎可能解析到污染的结果，更加追求速度。请将 nameserver 列表的服务器插入至 fallback 列表内，并移除重复项。
-#
-# 3. 关于 DNS over HTTPS (DoH) 和 DNS over TLS (DoT) 的选择：
-#   对于两项技术双方各执一词，而且会无休止的争论，各有利弊。各位请根据具体需求自行选择，但是配置文件内默认启用 DoT，因为目前国内没有封锁或管制。
-#   DoH: 以 https:// 开头的 DNS 服务器。拥有更好的伪装性，且几乎不可能被运营商或网络管理封锁，但查询效率和安全性可能略低。
-#   DoT: 以 tls:// 开头的 DNS 服务器。拥有更高的安全性和查询效率，但端口有可能被管制或封锁。
-#   若要了解更多关于 DoH/DoT 相关技术，请自行查阅规范文档。
+    - 'tls://1.1.1.1:853#🚀 国外流量'
+    - 'tls://1.0.0.1:853#🚀 国外流量'
+    - 'https://1.1.1.1/dns-query#🚀 国外流量'
+    - 'https://1.0.0.1/dns-query#🚀 国外流量'
+    - 'tls://8.8.8.8:853#🚀 国外流量'
+    - 'tls://8.8.4.4:853#🚀 国外流量'
+    - 'https://8.8.8.8/dns-query#🚀 国外流量'
+    - 'https://8.8.4.4/dns-query#🚀 国外流量'
+  # fallback:
+  #   - tls://8.8.4.4
+  #   - tls://1.1.1.1
+  # proxy-server-nameserver:
+  #   - https://doh.pub/dns-query
+  # fallback-filter:
+  #   geoip: true
+  #   geoip-code: CN
+  #   geosite:
+  #     - gfw
+  #   ipcidr:
+  #     - 240.0.0.0/4
+  #   domain:
+  #     - '+.google.com'
+  #     - '+.facebook.com'
+  #     - '+.youtube.com'
 
 # 代理组
 # 下面这3个不要引到订阅里去 要不会出错
