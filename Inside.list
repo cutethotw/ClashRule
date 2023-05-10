@@ -16,3 +16,4 @@ DOMAIN,www2.deepl.com
 PROCESS-NAME,qbittorrent
 PROCESS-NAME,docker
 DOMAIN-SUFFIX,docker.com
+DOMAIN,wpad
