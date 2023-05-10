@@ -67,7 +67,7 @@ tun:
 # DNS
 dns:
   enable: true
-  prefer-h3: true
+  # prefer-h3: true
   listen: 127.0.0.1:53
   ipv6: true
   default-nameserver:
