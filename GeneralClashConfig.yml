@@ -1,7 +1,7 @@
 # 全局配置
 mixed-port: 7890
 # port: 7890
-# socks-port: 7891
+socks-port: 7891
 # redir-port: 7892
 allow-lan: false
 global-client-fingerprint: chrome
@@ -9,7 +9,7 @@ bind-address: "*"
 ipv6: true
 # mode: rule
 # silent / error / warning / info / debug
-log-level: debug
+log-level: info
 # RESTful API
 external-controller: '127.0.0.1:9090'
 # external-ui: folder
@@ -20,7 +20,7 @@ geox-url:
   geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
   mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
 experimental:
-  # ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
+  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
   # interface-name: en0 # outbound interface name
 # 本地 SOCKS5 / HTTP(S) 服务认证
 # authentication:
@@ -33,7 +33,7 @@ profile:
 # Tun配置
 tun:
   enable: true
-  stack: system
+  # stack: system
   auto-route: true
   auto-detect-interface: true
   dns-hijack:
