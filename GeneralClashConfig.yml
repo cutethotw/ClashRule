@@ -31,16 +31,16 @@ profile:
   store-fake-ip: true
 
 # Tun配置
-tun:
-  enable: true
-  # stack: system
-  auto-route: true
-  auto-detect-interface: true
-  dns-hijack:
-    - any:53
-  # device: utun0
-  # mtu: 9000
-  strict-route: true
+# tun:
+  # enable: true
+  # # stack: system
+  # auto-route: true
+  # auto-detect-interface: true
+  # dns-hijack:
+  #   - any:53
+  # # device: utun0
+  # # mtu: 9000
+  # strict-route: true
   # inet4-route-address:
   # - 0.0.0.0/1
   # - 128.0.0.0/1
