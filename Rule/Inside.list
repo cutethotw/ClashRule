@@ -8,7 +8,12 @@ IP-CIDR,199.15.79.112/32,no-resolve
 IP-CIDR,199.15.77.199/32,no-resolve
 IP-CIDR,199.15.77.232/32,no-resolve
 IP-CIDR,103.135.250.65/32,no-resolve
-#浏览器自动验证码拓展nopecha解除ip封禁
+
+# 浏览器自动验证码拓展nopecha解除ip封禁
 DOMAIN,api.nopecha.com
-#DeepL直连翻译
+
+# DeepL直连翻译
 DOMAIN,www2.deepl.com
+
+# 路过图床
+DOMAIN-SUFFIX,imgse.com
