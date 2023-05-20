@@ -14,6 +14,3 @@ DOMAIN,api.nopecha.com
 
 # DeepL直连翻译
 DOMAIN,www2.deepl.com
-
-# 路过图床
-DOMAIN-SUFFIX,imgse.com
