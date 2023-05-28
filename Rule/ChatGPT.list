@@ -15,3 +15,6 @@ DOMAIN-SUFFIX,stripe.com
 
 # poe
 DOMAIN-SUFFIX,poe.com
+
+# 风控
+DOMAIN-SUFFIX,sentry.io
