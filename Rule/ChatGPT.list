@@ -18,3 +18,39 @@ DOMAIN-SUFFIX,poe.com
 
 # 风控
 DOMAIN-SUFFIX,sentry.io
+
+# OPENAI所用到的服务相关域名，包括Google和CloudFlare的人机验证之类
+DOMAIN,cdn.auth0.com
+DOMAIN-SUFFIX,vimeocdn.com
+DOMAIN-SUFFIX,blob.core.windows.net
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,azurefd.net
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,cdn.cloudflare.net
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,f7tk.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,pki.goog
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,edgecompute.app
+DOMAIN-SUFFIX,compute-pipe.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,gpt3sandbox.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,openaiapi
+DOMAIN-KEYWORD,openaipublic
