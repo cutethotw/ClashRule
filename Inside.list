@@ -17,3 +17,4 @@ PROCESS-NAME,qbittorrent
 PROCESS-NAME,docker
 DOMAIN-SUFFIX,docker.com
 DOMAIN,wpad
+DOMAIN-SUFFIX,tailscale.io
