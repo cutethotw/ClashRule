@@ -28,7 +28,6 @@ experimental:
 #  - "user2:pass2"
 profile:
   store-selected: true
-  store-fake-ip: true
 
 # Tun配置
 # tun:
