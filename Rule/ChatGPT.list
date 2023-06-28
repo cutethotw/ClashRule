@@ -1,17 +1,7 @@
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,ai.com
+# 排除——https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml——重复项
+
+# ChatGPT第三方Windows客户端——https://github.com/lencx/ChatGPT
 PROCESS-NAME,msedgewebview2.exe
-
-# CDN & API
-DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
-
-# stripe
-DOMAIN-SUFFIX,invoice.stripe.com
-DOMAIN-SUFFIX,stripe.com
 
 # poe
 DOMAIN-SUFFIX,poe.com
@@ -20,11 +10,9 @@ DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,sentry.io
 
 # OPENAI所用到的服务相关域名，包括Google和CloudFlare的人机验证之类
-DOMAIN,cdn.auth0.com
 DOMAIN-SUFFIX,vimeocdn.com
 DOMAIN-SUFFIX,blob.core.windows.net
 DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,azurefd.net
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,cdn.cloudflare.net
@@ -36,21 +24,14 @@ DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,f7tk.com
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,pki.goog
-DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,edgecompute.app
 DOMAIN-SUFFIX,compute-pipe.com
-DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,stripe.network
-DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,gpt3sandbox.com
 DOMAIN-SUFFIX,sentry.io
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,openaiapi
-DOMAIN-KEYWORD,openaipublic
