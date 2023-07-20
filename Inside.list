@@ -18,3 +18,4 @@ PROCESS-NAME,docker
 DOMAIN-SUFFIX,docker.com
 DOMAIN,wpad
 DOMAIN-SUFFIX,tailscale.io
+PROCESS-NAME,amule
