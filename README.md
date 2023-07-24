@@ -6,7 +6,7 @@
 
 打开[肥羊订阅转换前端](https://suburl.v1.mk/)，填入必要信息（如图所示），用就完事了
 <a href="https://imgse.com/i/pSyBGUe"><img src="https://s1.ax1x.com/2023/02/04/pSyBGUe.png" alt="pSyBGUe.png" border="0" /></a>
-<a href="https://imgse.com/i/p95i9t1"><img src="https://s1.ax1x.com/2023/05/20/p95i9t1.png" alt="p95i9t1.png" border="0" /></a>
+<a href="https://imgse.com/i/pCOJwB8"><img src="https://s1.ax1x.com/2023/07/24/pCOJwB8.png" alt="pCOJwB8.png" border="0" /></a>
 
 ***
 
