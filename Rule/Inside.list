@@ -1,5 +1,11 @@
+# DIY
 DOMAIN,noak.me
 DOMAIN-SUFFIX,noak.me
+
+# 路过图床
+DOMAIN-SUFFIX,imgse.com
+
+# 向日葵
 DOMAIN-SUFFIX,oray.net
 PROCESS-NAME,SunloginClient.exe
 IP-CIDR,34.150.118.205/32,no-resolve
