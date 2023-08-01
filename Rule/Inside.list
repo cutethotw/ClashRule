@@ -20,3 +20,9 @@ DOMAIN,api.nopecha.com
 
 # DeepL直连翻译
 DOMAIN,www2.deepl.com
+
+# DDNS
+DOMAIN-SUFFIX,quickconnect.to
+DOMAIN-SUFFIX,akamai.com
+DOMAIN-SUFFIX,dyndns.com
+DOMAIN-SUFFIX,dyndns.org
