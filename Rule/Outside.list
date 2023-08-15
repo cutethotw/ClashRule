@@ -2,7 +2,12 @@ DOMAIN,gw.sky-ip.net
 DOMAIN-SUFFIX,gw.sky-ip.net
 IP-CIDR,207.148.64.114/32,no-resolve
 DOMAIN-SUFFIX,emby.vault647.com
+
 #谷歌大陆节点代理
 DOMAIN-SUFFIX,gstatic.com
+
 #谷歌play
 DOMAIN-SUFFIX,googleapis.cn
+
+# 路过图床
+DOMAIN-SUFFIX,imgse.com
