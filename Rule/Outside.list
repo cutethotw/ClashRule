@@ -11,3 +11,6 @@ DOMAIN-SUFFIX,googleapis.cn
 
 # 路过图床
 DOMAIN-SUFFIX,imgse.com
+
+# 币安
+DOMAIN-SUFFIX,binance.com
