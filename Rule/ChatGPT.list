@@ -17,7 +17,7 @@ DOMAIN-SUFFIX,azurefd.net
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,cdn.cloudflare.net
 DOMAIN-SUFFIX,hcaptcha.com
-DOMAIN-SUFFIX,akamaized.net
+# DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,vimeo.com
 DOMAIN-SUFFIX,googletagmanager.com
