@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,sentry.io
 
 # OPENAI所用到的服务相关域名，包括Google和CloudFlare的人机验证之类
+# DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,vimeocdn.com
 DOMAIN-SUFFIX,blob.core.windows.net
 DOMAIN-SUFFIX,googleapis.com
@@ -17,7 +18,6 @@ DOMAIN-SUFFIX,azurefd.net
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,cdn.cloudflare.net
 DOMAIN-SUFFIX,hcaptcha.com
-# DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,vimeo.com
 DOMAIN-SUFFIX,googletagmanager.com
