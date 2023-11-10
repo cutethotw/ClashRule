@@ -15,3 +15,6 @@ DOMAIN-SUFFIX,imgse.com
 # 币安
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,bnbstatic.com
+
+# iptv直播源
+DOMAIN-SUFFIX,livednow.com
