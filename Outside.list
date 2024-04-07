@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleapis.cn
 
 #acadmist
+DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,goog
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googletagmanager.com
