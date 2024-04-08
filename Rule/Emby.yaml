@@ -16,4 +16,6 @@ payload:
   - DOMAIN-SUFFIX,sg.gcx920110.com
   - DOMAIN-SUFFIX,hs.gcx920110.com
   - DOMAIN-SUFFIX,play.charontv.com
+  - DOMAIN-SUFFIX,wptv.ii00.cc
+  - DOMAIN-SUFFIX,wgtv.ii00.cc
   - IP-CIDR,161.97.148.156/24,no-resolve
