@@ -18,3 +18,6 @@ DOMAIN-SUFFIX,bnbstatic.com
 
 # iptv直播源
 DOMAIN-SUFFIX,livednow.com
+
+# 423down
+DOMAIN-SUFFIX,423down.com
