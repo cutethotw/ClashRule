@@ -1,0 +1,8 @@
+# Gemini
+# DOMAIN,generativelanguage.googleapis.com
+DOMAIN-KEYWORD,generativelanguage
+# DOMAIN,colab.research.google.com
+DOMAIN-KEYWORD,colab
+DOMAIN-SUFFIX,apis.google.com
+# DOMAIN,content-developerprofiles-pa.googleapis.com
+DOMAIN-KEYWORD,developerprofiles
