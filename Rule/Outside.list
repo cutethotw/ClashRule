@@ -1,0 +1,29 @@
+DOMAIN,gw.sky-ip.net
+DOMAIN-SUFFIX,gw.sky-ip.net
+IP-CIDR,207.148.64.114/32,no-resolve
+DOMAIN-SUFFIX,emby.vault647.com
+
+#谷歌大陆节点代理
+DOMAIN-SUFFIX,gstatic.com
+
+#谷歌play
+DOMAIN-SUFFIX,googleapis.cn
+
+# 路过图床
+DOMAIN-SUFFIX,imgse.com
+
+# 币安
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,bnbstatic.com
+
+# iptv直播源
+DOMAIN-SUFFIX,livednow.com
+
+# 423down
+DOMAIN-SUFFIX,423down.com
+
+# 小H片
+DOMAIN-SUFFIX,javdb.com
+
+# NodeSeek
+DOMAIN-SUFFIX,nodeseek.com

@@ -1,0 +1,42 @@
+# DIY
+DOMAIN,noak.me
+DOMAIN-SUFFIX,noak.me
+
+# 向日葵
+DOMAIN-SUFFIX,oray.net
+PROCESS-NAME,SunloginClient.exe
+IP-CIDR,34.150.118.205/32,no-resolve
+IP-CIDR,34.92.109.8/32,no-resolve
+IP-CIDR,199.15.79.112/32,no-resolve
+IP-CIDR,199.15.77.199/32,no-resolve
+IP-CIDR,199.15.77.232/32,no-resolve
+IP-CIDR,103.135.250.65/32,no-resolve
+
+# 浏览器自动验证码拓展nopecha解除ip封禁
+DOMAIN,api.nopecha.com
+
+# DeepL直连翻译
+DOMAIN,www2.deepl.com
+
+# DDNS
+DOMAIN-SUFFIX,quickconnect.to
+DOMAIN-SUFFIX,akamai.com
+DOMAIN-SUFFIX,dyndns.com
+DOMAIN-SUFFIX,dyndns.org
+
+# PornEmby
+DOMAIN-SUFFIX,p.once.im
+DOMAIN-SUFFIX,g.once.im
+
+# Apple ID 共享
+DOMAIN-SUFFIX,idshare001.me
+
+# AnyDesk
+DOMAIN,anydesk.com
+DOMAIN-SUFFIX,anydesk.com
+
+# 廣宇
+DOMAIN-SUFFIX,xiaoyuz.f3322.net
+
+# TAG
+DOMAIN-KEYWORD,tagss
