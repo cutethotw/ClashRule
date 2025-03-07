@@ -213,3 +213,8 @@
 >   >   >   > 推荐开启
 >   >   >
 >   >   > * 待补充
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=cutethotw/ClashRule&type=Date)](https://star-history.com/#cutethotw/ClashRule&Date)
