@@ -5,8 +5,8 @@
 ## 一把梭
 
 打开[肥羊订阅转换前端](https://suburl.v1.mk/)，填入必要信息（如图所示），用就完事了
-<a href="https://imgse.com/i/pEq5VwF"><img src="订阅转换教程.assets/pEq5VwF.png" alt="pEq5VwF.png" border="0" />
-<a href="https://imgse.com/i/pEq59Wn"><img src="订阅转换教程.assets/pEq59Wn.png" alt="pEq59Wn.png" border="0" />
+[![pEq5VwF.png](https://s21.ax1x.com/2025/05/06/pEq5VwF.png)](https://imgse.com/i/pEq5VwF)
+[![pEq59Wn.png](https://s21.ax1x.com/2025/05/06/pEq59Wn.png)](https://imgse.com/i/pEq59Wn)
 
 ***
 
