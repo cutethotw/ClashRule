@@ -1,16 +1,4 @@
-# base-icon.yaml ─ 只放 icon，需要的组都列好，proxies 可留空
 proxy-groups:
-  - name: 手动选择
-    type: select
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Proxy.png
-    proxies: []
-
-  - name: Netflix
-    type: select
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Netflix.png
-    proxies: []
-
-  - name: 漏网之鱼
-    type: select
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Default.png
-    proxies: []
+  - {name: 手动选择,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Static.png}
+  - {name: Netflix, include-all: true, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Netflix.png} 
+  - {name: 漏网之鱼,, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Default.png} 
