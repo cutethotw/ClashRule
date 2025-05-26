@@ -1,4 +1,16 @@
 proxy-groups:
-  - {name: 手动选择,icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Static.png}
-  - {name: Netflix, include-all: true, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Netflix.png} 
-  - {name: 漏网之鱼, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Default.png} 
+  - name: 手动选择
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Static.png
+    proxies: []
+
+  - name: Netflix
+    type: select
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Netflix.png
+    include-all: true
+    proxies: []
+
+  - name: 漏网之鱼       
+    type: select
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Default.png
+    proxies: []
