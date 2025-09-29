@@ -28,6 +28,3 @@ DOMAIN-SUFFIX,nodeseek.com
 # 萌番组
 bangumi.moe
 
-# Apple AI
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,apple-relay.apple.com
