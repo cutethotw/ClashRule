@@ -40,12 +40,10 @@ DOMAIN-SUFFIX,xiaoyuz.f3322.net
 
 # TAG
 DOMAIN-KEYWORD,tagss
+DOMAIN-SUFFIX,central-world.org
 
 # 路过图床
 DOMAIN-SUFFIX,imgse.com
 
 # vod 订阅
-DOMAIN-SUFFIX,cdnlz22.com
-
-# OA
-IP-CIDR,203.156.243.78/32,no-resolve
+DOMAIN-SUFFIX,cdnlz22.com 
