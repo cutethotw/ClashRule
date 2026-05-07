@@ -3,11 +3,14 @@ DOMAIN-SUFFIX,gw.sky-ip.net
 IP-CIDR,207.148.64.114/32,no-resolve
 DOMAIN-SUFFIX,emby.vault647.com
 
-#谷歌大陆节点代理
+# 谷歌大陆节点代理
 DOMAIN-SUFFIX,gstatic.com
 
-#谷歌play
+# Google Play
 DOMAIN-SUFFIX,googleapis.cn
+
+# unycode 编码，实际是 ångströ.com，Google Play/YouTube 等在中国使用的 CDN 域名
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
 # 币安
 DOMAIN-SUFFIX,binance.com
@@ -28,3 +31,6 @@ DOMAIN-SUFFIX,nodeseek.com
 # 萌番组
 bangumi.moe
 
+# Apple AI
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.apple.com
