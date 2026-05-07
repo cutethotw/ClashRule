@@ -365,9 +365,6 @@ payload:
   - DOMAIN-SUFFIX,host.livekit.cloud
   - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
   - DOMAIN-SUFFIX,turn.livekit.cloud
-# 原始分流 - DOMAIN-REGEX,^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
-# 部分内核不支持，替换分流
-#  - DOMAIN-SUFFIX,webpubsub.azure.com
 
   # OpenArt / Core
   - DOMAIN-SUFFIX,openart.ai
