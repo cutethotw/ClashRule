@@ -12,6 +12,20 @@ IP-CIDR,199.15.77.199/32,no-resolve
 IP-CIDR,199.15.77.232/32,no-resolve
 IP-CIDR,103.135.250.65/32,no-resolve
 
+# Todesk
+DOMAIN-SUFFIX,todesk.com
+DOMAIN-SUFFIX,kylinlot.com
+PROCESS-NAME,ToDesk.exe
+PROCESS-NAME,ToDesk_Service.exe
+PROCESS-NAME,ToDesk_Session.exe
+PROCESS-NAME,ToDesk_Lite.exe
+PROCESS-NAME,ToDesk_RemoteAssistance.exe
+PROCESS-NAME,ToDesk_Setup.exe
+## macOS
+PROCESS-NAME,ToDesk
+## Linux
+PROCESS-NAME,todesk
+
 # 浏览器自动验证码拓展nopecha解除ip封禁
 DOMAIN,api.nopecha.com
 
