@@ -32,3 +32,56 @@ DOMAIN,cdn.usefathom.com
 IP-CIDR,160.79.104.0/21,no-resolve
 IP-CIDR6,2607:6bc0::/32,no-resolve
 IP-ASN,399358,no-resolve
+
+# 来源——https://www.nodeseek.com/post-682343-1
+# ======== 核心域名 ========
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpclient.com
+
+# ======== CDN & 静态资源 ========
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,cdn.usefathom.com
+
+# ======== 认证 & 内容 ========
+DOMAIN,anthropic.auth0.com
+DOMAIN,anthropic-com.ghost.io
+
+# ======== 监控/遥测：Datadog RUM ========
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN-KEYWORD,datadoghq
+
+# ======== 客服：Intercom ========
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+
+# ======== Feature Flags：Statsig ========
+DOMAIN-SUFFIX,statsigapi.net
+
+# ======== 错误追踪：Sentry ========
+DOMAIN-SUFFIX,sentry.io
+
+# ======== 反欺诈：Sift ========
+DOMAIN-KEYWORD,sift
+
+# ======== Google 静态资源 ========
+DOMAIN,t0.gstatic.com
+DOMAIN,t1.gstatic.com
+DOMAIN,t2.gstatic.com
+DOMAIN,t3.gstatic.com
+
+# ======== Claude Code 更新/下载 ========
+DOMAIN,storage.googleapis.com
+
+# ======== Anthropic 自有 IP 段 ========
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-CIDR6,2607:6bc0::/32,no-resolve
+IP-ASN,399358,no-resolve
+
+# ======== 关键字兜底 ========
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,anthropic
