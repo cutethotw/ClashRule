@@ -82,8 +82,12 @@ IP-CIDR6,2607:6bc0::/32,no-resolve
 IP-ASN,399358,no-resolve
 
 # ======== 关键字兜底 ========
+GEOSITE:anthropic
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,anthropic
+
+# ======== NTP 时区检测 ========
+GEOSITE:category-ntp
 
 # ======= https://github.com/xiaolai/anthropic-claude-surge-rules-set =====
 DOMAIN-SUFFIX,modelcontextprotocol.io
