@@ -26,7 +26,6 @@ DOMAIN-KEYWORD,sift
 # 客服 / 第三方 widget
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN,cdn.usefathom.com
 
 # IP 段 / ASN 兜底
 IP-CIDR,160.79.104.0/21,no-resolve
@@ -85,3 +84,9 @@ IP-ASN,399358,no-resolve
 # ======== 关键字兜底 ========
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,anthropic
+
+# ======= https://github.com/xiaolai/anthropic-claude-surge-rules-set =====
+DOMAIN-SUFFIX,modelcontextprotocol.io
+DOMAIN,cdn.growthbook.io
+IP-CIDR,160.79.104.0/23,no-resolve
+IP-CIDR6,2607:6bc0::/48,no-resolve
