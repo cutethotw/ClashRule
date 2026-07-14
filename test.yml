@@ -1,0 +1,46 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: info
+ipv6: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+unified-delay: true
+tcp-concurrent: true
+geodata-mode: true
+geo-auto-update: true
+geo-update-interval: 24
+etag-support: true
+dns:
+  enable: true
+  cache-algorithm: arc
+  prefer-h3: false
+  use-hosts: true
+  use-system-hosts: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  default-nameserver:
+    - system
+    - 119.29.29.29
+    - '2402:4e00::'
+  nameserver:
+    - system
+  proxy-server-nameserver:
+    - https://hydrogen1693.com:44443/dns-query/5865a0d4-048d-4811-8926-c60e185d610e
+    - https://subprime7404.com:44443/dns-query/5865a0d4-048d-4811-8926-c60e185d610e
+    - https://tribunal2944.com/dns-query/5865a0d4-048d-4811-8926-c60e185d610e
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - '*.arpa'
+    - 'time.*.com'
+    - 'ntp.*.com'
+    - '+.market.xiaomi.com'
+    - 'localhost.ptlogin2.qq.com'
+    - '*.msftncsi.com'
+    - 'www.msftconnecttest.com'
