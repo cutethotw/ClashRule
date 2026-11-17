@@ -1,0 +1,8 @@
+payload:
+# 联通
+  - DOMAIN,dm.wo.com.cn
+# 电信
+  - DOMAIN,zzhc.vnet.cn
+  - DOMAIN,typdm.tydevice.com
+# 移动
+  - DOMAIN-SUFFIX,fxltsbl.com
